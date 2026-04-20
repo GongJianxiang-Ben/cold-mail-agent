@@ -86,7 +86,7 @@ export GEMINI_API_KEY=your_key_here
 
 ```bash
 PYTHONPATH=src python -m cold_email_agent.cli \
-  --leads sample_data/leads.csv \
+  --leads sample_data/leads_test.csv \
   --config sample_data/campaign.yaml
 ```
 
