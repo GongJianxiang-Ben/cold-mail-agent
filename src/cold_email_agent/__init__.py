@@ -1,0 +1,2 @@
+"""Cold email agent package."""
+

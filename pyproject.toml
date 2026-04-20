@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cold-email-agent"
+version = "0.1.0"
+description = "CLI agent that researches leads and drafts personalized cold emails."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "google-genai>=1.0.0",
+  "PyYAML>=6.0",
+]
+
+[project.scripts]
+cold-email-agent = "cold_email_agent.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

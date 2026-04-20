@@ -1,0 +1,24 @@
+sender_name: Ava Seller
+sender_company: Northstar AI
+sender_role: Account Executive
+sender_email: ava@northstar.ai
+product_name: Northstar AI
+product_pitch: >
+  Northstar AI researches target accounts, drafts grounded outbound emails,
+  and gives reps a reviewer-friendly rationale for each message.
+campaign_goal: Book more qualified intro calls with outbound prospects
+tone: Warm, concise, commercially sharp
+length_preference: 120-170 words
+call_to_action: Would you be open to a brief conversation next week?
+value_props:
+  - Personalized outreach grounded in recent company signals
+  - Faster rep prep without losing specificity
+  - Reviewer-friendly output with traceable signals
+constraints:
+  - Do not use fake metrics or invented customer stories
+  - Avoid sounding overly salesy or automated
+research_model: gemini-2.5-flash-lite
+writing_model: gemini-2.5-flash-lite
+review_model: gemini-2.5-flash-lite
+reasoning_effort: medium
+search_country:
